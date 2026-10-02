@@ -1,0 +1,8 @@
+.DS_Store
+
+# Editor and local tooling
+.idea/
+.vscode/
+
+__pycache__/
+*.py[cod]

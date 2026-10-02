@@ -1,0 +1,32 @@
+{
+  "name": "staff-dev-skills",
+  "version": "0.2.0+codex.20261002014232",
+  "description": "A shareable collection of practical Codex skills for journaling and guided code walkthroughs.",
+  "author": {
+    "name": "Atif Mansoor"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "productivity",
+    "journaling",
+    "code-review",
+    "code-walkthrough"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Staff Dev Skills",
+    "shortDescription": "Reusable skills for everyday work.",
+    "longDescription": "Staff Dev Skills bundles reusable workflows for task journaling and guided code walkthroughs.",
+    "developerName": "Atif Mansoor",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use task-journal to update my task journal.",
+      "Use code-walkthrough to review my current diff or a branch."
+    ]
+  }
+}
